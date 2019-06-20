@@ -21,7 +21,7 @@ class Hydro : Bill
     }
     override func display()
     {
-        print(self.billId!, self.billDate!.getFormatDate(),self.billType!,self.totalAmount!.dollar(), self.!, self.IntGB!.gb(), separator:"\t")
+        print(self.billId!, self.billDate!.getFormatDate(),self.billType!,self.totalAmount!.dollar(), self.agencyName!, self.consumedUnites!.unit() , separator:"\t")
     }
     
 }
