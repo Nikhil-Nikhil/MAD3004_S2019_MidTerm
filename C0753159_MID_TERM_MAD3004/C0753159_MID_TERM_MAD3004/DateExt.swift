@@ -8,11 +8,16 @@
 
 import Foundation
 
-extension String{
+extension Date
+{
     
-    public func getFormateDate() -> String
-    {
-        
-    }
+    
+            public func getFormatDate() -> String
+            {
+                let DateFormat = DateFormatter()
+                DateFormat.dateFormat = "EEEE, dd MM, yyyy"
+                let formattedDate = DateFormat.string(from: self)
+                return formattedDate
+            }
     
 }
