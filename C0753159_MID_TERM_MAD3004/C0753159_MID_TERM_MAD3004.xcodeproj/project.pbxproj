@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B2845EF22BC3F0100FDA7B1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2845EE22BC3F0100FDA7B1 /* main.swift */; };
+		9B2845F622BC420B00FDA7B1 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2845F522BC420B00FDA7B1 /* Bill.swift */; };
+		9B2845F822BC43F300FDA7B1 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2845F722BC43F300FDA7B1 /* Display.swift */; };
+		9B2845FA22BC464700FDA7B1 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2845F922BC464700FDA7B1 /* DateExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9B2845EB22BC3F0100FDA7B1 /* C0753159_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0753159_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2845EE22BC3F0100FDA7B1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B2845F522BC420B00FDA7B1 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9B2845F722BC43F300FDA7B1 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		9B2845F922BC464700FDA7B1 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9B2845EE22BC3F0100FDA7B1 /* main.swift */,
+				9B2845F522BC420B00FDA7B1 /* Bill.swift */,
+				9B2845F722BC43F300FDA7B1 /* Display.swift */,
+				9B2845F922BC464700FDA7B1 /* DateExt.swift */,
 			);
 			path = C0753159_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2845F622BC420B00FDA7B1 /* Bill.swift in Sources */,
+				9B2845F822BC43F300FDA7B1 /* Display.swift in Sources */,
 				9B2845EF22BC3F0100FDA7B1 /* main.swift in Sources */,
+				9B2845FA22BC464700FDA7B1 /* DateExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
