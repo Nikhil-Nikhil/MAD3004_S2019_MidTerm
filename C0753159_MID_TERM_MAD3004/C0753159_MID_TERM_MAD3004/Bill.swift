@@ -13,7 +13,7 @@ class Bill : Display
     
     
     let billId : Int?
-    var billDate: Date?
+    var billDate:Date = Date()
     var billType : String?
    
     var totalAmount:Float?
@@ -29,7 +29,7 @@ class Bill : Display
 func display() {
     
     print("BillId is : \(self.billId!)")
-   print("BillDate is : \(self.billDate!)")
+   print("BillDate is : \(self.billDate)")
     print("billType is : \(self.billType!)")
     }
 }

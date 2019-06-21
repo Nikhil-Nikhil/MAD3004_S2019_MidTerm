@@ -17,6 +17,7 @@
 		9B28460222BC4EB300FDA7B1 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B28460122BC4EB300FDA7B1 /* Mobile.swift */; };
 		9B28460422BC51A600FDA7B1 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B28460322BC51A600FDA7B1 /* Hydro.swift */; };
 		9B28460622BC530700FDA7B1 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B28460522BC530700FDA7B1 /* Unit.swift */; };
+		9B28460822BC53E300FDA7B1 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B28460722BC53E300FDA7B1 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		9B28460122BC4EB300FDA7B1 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9B28460322BC51A600FDA7B1 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B28460522BC530700FDA7B1 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		9B28460722BC53E300FDA7B1 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				9B28460122BC4EB300FDA7B1 /* Mobile.swift */,
 				9B28460322BC51A600FDA7B1 /* Hydro.swift */,
 				9B28460522BC530700FDA7B1 /* Unit.swift */,
+				9B28460722BC53E300FDA7B1 /* Customer.swift */,
 			);
 			path = C0753159_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				9B28460422BC51A600FDA7B1 /* Hydro.swift in Sources */,
 				9B28460622BC530700FDA7B1 /* Unit.swift in Sources */,
 				9B2845EF22BC3F0100FDA7B1 /* main.swift in Sources */,
+				9B28460822BC53E300FDA7B1 /* Customer.swift in Sources */,
 				9B2845FA22BC464700FDA7B1 /* DateExt.swift in Sources */,
 				9B2845FC22BC49A300FDA7B1 /* Internet.swift in Sources */,
 				9B28460222BC4EB300FDA7B1 /* Mobile.swift in Sources */,
