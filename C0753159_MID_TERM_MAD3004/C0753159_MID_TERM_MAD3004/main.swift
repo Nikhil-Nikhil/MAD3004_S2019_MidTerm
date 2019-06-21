@@ -8,5 +8,6 @@
 
 import Foundation
 
-
-
+var c1 = Customer(customerId: 1,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400)
+var c1 = Customer(customerId: 1,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400)
+var c1 = Customer(customerId: 1,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400)
