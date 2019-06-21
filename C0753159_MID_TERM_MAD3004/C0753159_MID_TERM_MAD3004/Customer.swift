@@ -23,7 +23,7 @@ class Customer : Display
     var Totalamount:Float{
         var totalamount:Float = 0.0
         for bill in dictbill{
-            totalamount = totalamount + ((bill.getprice, forKey:billId) * Float(bill.consumedUnites!))
+            totalamount = totalamount + ((bill.getprice, forKey:Bill) * Float(bill.consumedUnites!))
         }
         return totalamount
     }
@@ -41,7 +41,7 @@ class Customer : Display
             return nil
         }
     }
-    init(customerId:Int, firstname: String, lastname: String, email: String )
+    init(customerId:Int, firstname: String, lastname: String, email: String , totalamount: Float)
     {
         
       self.customerId = customerId

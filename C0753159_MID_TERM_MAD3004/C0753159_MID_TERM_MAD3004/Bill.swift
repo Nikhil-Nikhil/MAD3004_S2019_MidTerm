@@ -17,7 +17,7 @@ class Bill : Display
     var billType : String?
    
     
-    private var totalAmount:Float?
+    var totalAmount:Float?
     var getPrice:Float?
     {
         get{

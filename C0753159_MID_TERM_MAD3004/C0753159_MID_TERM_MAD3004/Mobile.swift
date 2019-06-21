@@ -13,9 +13,9 @@ class Mobile : Bill
     var planName : String?
     var mobileno : Int?
     var internetused : Int?
-    var muniteused : String?
+    var muniteused : Int?
     
-    init( billId :Int, billDate : Date, billType : String, totalAmount : Float,manufacturername: String,  planeName : String, mobileno :Int, internetused : Int, muniteused : String)
+    init( billId :Int, billDate : Date, billType : String, totalAmount : Float,manufacturername: String,  planeName : String, mobileno :Int, internetused : Int, muniteused : Int)
     {
         self.manufacturername = manufacturername
         self.planName = planeName
@@ -27,7 +27,7 @@ class Mobile : Bill
     }
     override func display()
     {
-        print(self.billId!, self.billDate!.getFormatDate(),self.billType!,self.totalAmount!.dollar(), self.manufacturername!,self.planName!,self.mobileno!,self.internetused!.gb(), self.muniteused!, separator:"\t")
+        print(self.billId!, self.billDate.getFormatDate(),self.billType!,self.totalAmount!.dollar(), self.manufacturername!,self.planName!,self.mobileno!,self.internetused!.gb(), self.muniteused!, separator:"\t")
     }
     
 }
