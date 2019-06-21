@@ -18,9 +18,21 @@ class Customer : Display
     var lastname : String?
     var fullname : String?
     var email : String?
-    private static var dictbill=[Int:bill]()
+    var dictbill=[Int: Bill]()
     
-    init(customerId:Int, firstname: String) {
+    var Totalamount:Float{
+        var totalamount:Float = 0.0
+        for bill in dictbill{
+            totalamount = totalamount + ((bill.getprice, forKey:billId) * Float(bill.consumedUnites!))
+        }
+        return totalamount
+    }
+    
+    func fullname(name : String)
+    {
+        return ( )
+    }
+    init(customerId:Int, firstname: String, lastname: String, email: String, ) {
         
 
    

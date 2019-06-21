@@ -16,13 +16,20 @@ class Bill : Display
     var billDate:Date = Date()
     var billType : String?
    
-    var totalAmount:Float?
-      
+    
+    private var totalAmount:Float?
+    var getPrice:Float?
+    {
+        get{
+            return getPrice
+        }
+    }
     init(billId :Int, billDate : Date, billType : String, totalAmount : Float)
     {
        self.billId = billId
         self.billDate = billDate
         self.billType = billType
+        self.totalAmount = totalAmount
        
     }
 
