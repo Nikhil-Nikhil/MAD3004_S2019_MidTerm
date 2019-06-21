@@ -10,7 +10,7 @@ import Foundation
 class Customer : Display
 {
     func display() {
-        <#code#>
+        
     }
     
   let customerId:Int?
@@ -32,10 +32,24 @@ class Customer : Display
     {
         return ( )
     }
-    init(customerId:Int, firstname: String, lastname: String, email: String, ) {
+    func getbillById(billId:Int) -> Bill? {
         
-
+        if let bill = dictbill[billId] {
+            return bill as Bill
+        }
+        else {
+            return nil
+        }
+    }
+    init(customerId:Int, firstname: String, lastname: String, email: String )
+    {
+        
+      self.customerId = customerId
+        self.firstname = firstname
+        self.lastname = lastname
+        self.email = email
    
     }
    
+
 }
