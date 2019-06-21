@@ -10,8 +10,10 @@ import Foundation
 class Customer : Display
 {
     func display() {
-        
-    }
+        print("firstname is : \(self.firstname!)")
+        print("lastname is : \(self.lastname!)")
+        print("email Id is : \(self.email!)")
+       }
     
   let customerId:Int?
     var firstname : String?
@@ -50,6 +52,6 @@ class Customer : Display
         self.email = email
    
     }
-   
-
 }
+
+

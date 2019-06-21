@@ -9,5 +9,12 @@
 import Foundation
 
 var c1 = Customer(customerId: 1,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400)
-var c1 = Customer(customerId: 1,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400)
-var c1 = Customer(customerId: 1,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400)
+var c2 = Customer(customerId: 2,firstname: "kishore",lastname: "Narang",email: "N@g.com", totalamount: 700)
+var c3 = Customer(customerId: 3,firstname: "Tarlochan",lastname: "preet",email: "N@g.com", totalamount: 200)
+c1.display()
+
+print("************************************************")
+
+
+var bill1:Bill = Bill.init(billId: 1, billDate: Date(), billType: Hydro , totalAmount: 400)
+    bill1.display()
