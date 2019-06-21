@@ -15,17 +15,24 @@ c1.display()
 
 print("************************************************")
 
-
+print("******BillInfo***********")
 var bill1 = Bill(billId: 1,billDate: Date(), billType :"Hydro",totalAmount: 300)
+bill1.display()
+Bill.addbill(bill: bill1)
 var bill2 = Bill(billId: 2,billDate: Date(), billType :"Internet",totalAmount: 300)
+bill2.display()
+Bill.addbill(bill: bill2)
 var bill3 = Bill(billId: 3,billDate: Date(), billType :"Mobile",totalAmount: 300)
-c1.display()
+bill3.display()
 
 
-
+print("******* print By Id***************")
 if let myBill = Bill.getbillById(billId: 2)
 {
     print(myBill.display())
-}else{
+}
+else{
     print("NO Bill FOUND WITH GIVEN ID")
 }
+
+var m = Mobile(maunfacturer,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400

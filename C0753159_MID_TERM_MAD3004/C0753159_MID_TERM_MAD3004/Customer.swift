@@ -43,6 +43,10 @@ class Customer : Display
             return nil
         }
     }
+    func addbill(bill: Bill)
+    {
+        dictbill.updateValue(bill, forKey: bill.billId!)
+    }
     init(customerId:Int, firstname: String, lastname: String, email: String , totalamount: Float)
     {
         
