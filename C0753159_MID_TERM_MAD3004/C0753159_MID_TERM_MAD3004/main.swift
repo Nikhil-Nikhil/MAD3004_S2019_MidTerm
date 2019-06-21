@@ -35,4 +35,9 @@ else{
     print("NO Bill FOUND WITH GIVEN ID")
 }
 
-var m = Mobile(maunfacturer,firstname: "Nikhil",lastname: "Nikhil",email: "N@g.com", totalamount: 400
+var m = Mobile(maunfacturername: "iphone",planName :" prepaid"
+    self.mobileno = mobileno
+    self.internetused = internetused
+    self.muniteused = muniteus
+)
+m.display()
